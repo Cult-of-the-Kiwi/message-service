@@ -12,7 +12,7 @@
 
 **WebSocket Upgrade:**
 
--   Protocols: JWT is sent as a subprotocol to validate the user.
+-   Protocols: JWT and `channel_id` are sent as a subprotocols to validate the user and connect to the proper channel.
 
 **Behavior:**
 
